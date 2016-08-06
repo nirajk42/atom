@@ -388,7 +388,6 @@ class Package
     @activationPromise = null
     @resolveActivationPromise = null
     @activationCommandSubscriptions?.dispose()
-    @activationHookSubscriptions?.dispose()
     @configSchemaRegisteredOnActivate = false
     @deactivateResources()
     @deactivateKeymaps()
